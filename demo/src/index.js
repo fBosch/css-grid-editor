@@ -1,12 +1,14 @@
+import './style.css'
+
 import React, {Component} from 'react'
-import {render} from 'react-dom'
 
 import Example from '../../src'
+import {render} from 'react-dom'
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>react-css-grid-editor Demo</h1>
+    return <div className="demo">
+      <h1>react-css-grid-editor</h1>
       <Example/>
     </div>
   }

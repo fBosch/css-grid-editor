@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'CSS_GRID_EDITOR',
+      global: 'ReactCSSGridEditor',
       externals: {
         react: 'React'
       }
